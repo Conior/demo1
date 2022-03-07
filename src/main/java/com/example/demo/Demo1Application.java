@@ -10,4 +10,8 @@ public class Demo1Application {
         SpringApplication.run(Demo1Application.class, args);
     }
 
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }
